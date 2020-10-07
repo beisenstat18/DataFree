@@ -1,0 +1,160 @@
+html {
+  margin: 0px;
+
+}
+body{
+
+  background-image: url("scary2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 120vh;
+}
+
+.navMenu{
+  display: flex;
+  justify-content: flex-start;
+  padding: 2vmin;
+
+}
+
+.button {
+  background-color: #D0D9CC;
+  border: #f32d5b;
+  color: #f32d5b;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Bangers;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.siteIcon{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.mainContent1{
+  display: flex;
+  font-family: "Bangers";
+  font-size: 20vmin;
+  color: #383D40;
+  text-shadow: 2px 2px 5px #D0D9CC;
+  justify-content: center;
+
+}
+
+.video1{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.mainContent2{
+
+  font-size: 15vmin;
+  color: #383D40;
+  font-family: Bangers;
+  text-shadow: 2px 2px 5px #D0D9CC;
+  display: flex;
+  justify-content: center;
+
+}
+
+.slideshowContainer {
+  display: flex;
+  justify-content: center ;
+  padding-bottom: 5vmin;
+
+}
+
+.imageCollection > img {
+  width: 32vmin;
+  display: inline-block;
+  border-style: solid;
+  border-color: #f32d5b;
+  opacity: .2;
+}
+
+.imageCollection > img:hover {
+  opacity: 1.0;
+}
+
+
+.text1{
+  position:absolute;
+  padding-left: 120vmin;
+  padding-right: 5vmin;
+  font-size: 3vmin;
+  color:#383D40;
+  line-height: 7vmin;
+  font-family: sans-serif;
+  padding-bottom: 10vmin;
+
+}
+
+.text2{
+  color: #383D40;
+  position:absolute;
+  padding-right: 120vmin;
+  padding-left: 5vmin;
+  font-size: 3vmin;
+  line-height: 7vmin;
+  font-family:sans-serif;
+
+}
+
+.collage{
+  display: flex;
+  justify-content: center;
+  padding-top: 10vmin;
+  padding-bottom: 5vmin;
+}
+
+.link1{
+
+  border-style: solid;
+  border-color: #f32d5b;
+    background-color: #d0d9cc;
+  border-width: 15px;
+}
+
+.link2{
+
+  border-style: solid;
+  border-color: #f32d5b;
+  background-color: #d0d9cc;
+  border-width: 15px;
+
+}
+
+.link3{
+
+  border-style: solid;
+  border-color: #f32d5b;
+  background-color: #d0d9cc;
+  border-width: 15px;
+}
+
+.link4{
+
+  color: #d0d9cc;
+  background-color: #d0d9cc;
+  border-style: solid;
+  border-color: #f32d5b;
+  border-width: 15px;
+}
+
+.sectionHeader2{
+  display: flex;
+  justify-content: center;
+  font-size: 20vmin;
+  color: #383D40;
+  font-family: Bangers;
+  text-shadow: 2px 2px 5px #D0D9CC;
+
+}
